@@ -1,3 +1,4 @@
+    while wait(0.4) do
     local args = {
     [1] = 2,
     [2] = "-4_-4",
@@ -2231,3 +2232,5 @@ local args = {
 game:GetService("ReplicatedStorage").Communication.Remotes.HitTree:FireServer(unpack(args))
 
 wait(0)
+
+end
